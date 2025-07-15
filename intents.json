@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good afternoon", 
+        "What's up?", "Howdy", "Greetings", "Hi there", "Hello there",
+        "Hey there", "Good to see you", "Nice to meet you",
+        "How are you doing today?", "What's going on?", "How's it going?"
+      ],
+      "responses": [
+        "Hello!", "Hi there!", "Greetings!", "Nice to see you!", 
+        "How can I help you today?", "Hello! How can I assist you?",
+        "Hi! What can I do for you?", "Hey! What brings you here today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "See ya", "Farewell", 
+        "Take care", "Bye bye", "Catch you later", "Signing off",
+        "I have to go now", "Talk to you later", "Until next time",
+        "It was nice talking to you", "I'll be going now"
+      ],
+      "responses": [
+        "Goodbye!", "See you soon!", "Have a nice day!", 
+        "Until next time!", "Take care!", "Bye! Come back soon!",
+        "Farewell! Don't hesitate to return if you have more questions!",
+        "Goodbye! It was nice chatting with you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Thanks a lot", "Appreciate it", 
+        "Much obliged", "Thank you very much", "Many thanks", 
+        "Thanks a bunch", "I appreciate it", "I'm grateful for your help",
+        "That was very helpful, thank you", "Thanks for your assistance",
+        "I really appreciate your help", "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!", "Happy to help!", "No problem!", 
+        "Anytime!", "My pleasure!", "Glad I could help!",
+        "You're very welcome!", "I'm here to help anytime!",
+        "Don't mention it! That's what I'm here for!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Do you know any jokes?", 
+        "Say something funny", "Give me a joke", "Can you joke?",
+        "I'd like to hear a joke", "Could you tell me a funny joke?",
+        "I need a good laugh, tell me a joke", "Do you have any jokes to share?",
+        "I'm feeling down, cheer me up with a joke", "Know any good jokes?",
+        "Let's hear something funny", "Tell me something humorous",
+        "I could use a laugh right now", "Share a joke with me"
+      ],
+      "responses": [
+        "Here's a joke for you!", "Let me tell you a funny one!", 
+        "How about this joke?", "I've got a good one for you:",
+        "This one always makes me laugh:", "Here's a classic:"
+      ]
+    },
+    {
+      "tag": "facts",
+      "patterns": [
+        "Tell me a fact", "Interesting fact", "Something interesting", 
+        "Did you know?", "Fun fact", "Share a fact", "Give me a fact",
+        "I'd like to learn something new", "Teach me something interesting",
+        "What's an interesting fact?", "Know any cool facts?",
+        "Share something fascinating", "Tell me something I don't know",
+        "What's a surprising fact?", "Give me a piece of trivia"
+      ],
+      "responses": [
+        "Here's an interesting fact for you!", "Did you know this?", 
+        "Here's something fascinating:", "Check out this cool fact:",
+        "This might surprise you:", "Here's a piece of trivia:"
+      ]
+    }
+  ]
+}
