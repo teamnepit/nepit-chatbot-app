@@ -10,3 +10,5 @@ spacy
 transformers>=4.30.0
 tf-keras
 torch
+accelerate
+bitsandbytes
