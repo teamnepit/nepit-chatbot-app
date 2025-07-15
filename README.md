@@ -1,7 +1,6 @@
 ###
 ChatBot App with LLM model
 
-
 ## Requirments
 
 1. Python 3 or higher
